@@ -1,3 +1,7 @@
+/* * {
+  border: 2px solid black;
+}
+
 html {
   background-color: turquoise;
 }
@@ -17,7 +21,7 @@ body {
 }
 
 div {
-  padding: 10px;
+  padding: 20px;
 }
 
 #first {
@@ -43,7 +47,30 @@ div {
   width: 25px;
   height: 25px;
 }
+
 span {
-  display: block;
-  background-color: aqua;
+  border-style: dotted;
+} */
+
+body {
+  margin: 20px;
+}
+
+span {
+  background-color: turquoise;
+  padding: 20px;
+}
+
+.btn {
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.tomato {
+  background-color: tomato;
+  color: white;
+}
+
+.grey {
+  background-color: grey;
 }
