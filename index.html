@@ -9,11 +9,12 @@
   </head>
   <body>
     <form>
-      <input type="file" accept="image/*,.pdf" />
-      <input required placeholder="First Name" type="text" />
-      <input required placeholder="Last Name" type="text" />
-      <input required placeholder="User Name" type="text" />
-      <input required placeholder="Password" type="password" minlength="10" />
+      <label for="profile">Profile Photo</label>
+      <input id="profile" type="file" accept="image/*,.pdf" />
+      <br />
+
+      <label for="url">First Name</label>
+      <input id="url" required placeholder="First Name" type="url" />
       <input required type="submit" value="Create Account" />
     </form>
 
