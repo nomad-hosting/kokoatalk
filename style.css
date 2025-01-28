@@ -94,7 +94,7 @@ div > span {
   text-decoration: underline;
 }
 
-p + span {
+p ~ span {
   color: teal;
   text-decoration: none;
 }
