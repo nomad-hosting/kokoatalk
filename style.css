@@ -76,18 +76,10 @@ span {
 } */
 
 body {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-direction: row;
-  height: 100vh;
-  flex-wrap: wrap;
+  height: 1000vh;
 }
 
 div {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   font-size: 28px;
   width: 300px;
   height: 300px;
@@ -99,6 +91,8 @@ div {
 
 #second {
   background-color: red;
+  position: fixed;
+  top: 20px;
 }
 
 #third {
