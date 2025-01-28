@@ -86,7 +86,7 @@ div {
   background-color: azure;
 }
 
-div:nth-child(1) {
+div:nth-child(even) {
   background-color: tomato;
 }
 
