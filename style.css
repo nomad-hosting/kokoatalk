@@ -52,7 +52,7 @@ span {
   border-style: dotted;
 } */
 
-body {
+/* body {
   margin: 20px;
 }
 
@@ -73,4 +73,10 @@ span {
 
 .grey {
   background-color: grey;
+} */
+
+div {
+  width: 300px;
+  height: 300px;
+  background-color: teal;
 }
