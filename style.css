@@ -162,6 +162,14 @@ input[placeholder~="name"] {
   color: blue;
 } */
 
+:root {
+  --main-color: #fccefc;
+}
+
+p {
+  color: var(--main-color);
+}
+
 p::selection {
   background-color: beige;
 }
