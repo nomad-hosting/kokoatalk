@@ -89,14 +89,16 @@ div {
   background-color: aliceblue;
   width: 200px;
   height: 200px;
+  position: relative;
 }
 
 #second {
   background-color: red;
   width: 100px;
   height: 100px;
-  position: relative;
-  top: -10px;
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
 }
 
 #third {
