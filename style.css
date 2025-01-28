@@ -131,3 +131,11 @@ input:optional {
 input:required {
   border: 1px solid tomato;
 }
+
+input[type="password"] {
+  background: teal;
+}
+
+input[placeholder~="name"] {
+  background-color: red;
+}
