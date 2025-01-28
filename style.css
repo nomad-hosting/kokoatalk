@@ -154,6 +154,18 @@ input[placeholder~="name"] {
   background-color: blue;
 } */
 
-a:visited {
+/* a:visited {
   color: red;
+} */
+
+/* input::placeholder {
+  color: blue;
+} */
+
+p::selection {
+  background-color: beige;
+}
+
+p::first-letter {
+  background-color: red;
 }
