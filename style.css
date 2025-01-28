@@ -87,12 +87,16 @@ div {
 
 #first {
   background-color: aliceblue;
+  width: 200px;
+  height: 200px;
 }
 
 #second {
   background-color: red;
-  position: fixed;
-  top: 20px;
+  width: 100px;
+  height: 100px;
+  position: relative;
+  top: -10px;
 }
 
 #third {
