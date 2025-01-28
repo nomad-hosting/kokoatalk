@@ -86,12 +86,17 @@ div {
   background-color: azure;
 }
 
-span {
-  color: tomato;
+div > span {
+  background-color: tomato;
+  color: white;
+  padding: 5px;
+  border-radius: 10px;
+  text-decoration: underline;
 }
 
 p span {
   color: teal;
+  text-decoration: none;
 }
 
 /* 
