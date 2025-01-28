@@ -83,6 +83,11 @@ div {
   font-size: 28px;
   width: 300px;
   height: 300px;
+  background-color: azure;
+}
+
+div:nth-child(1) {
+  background-color: tomato;
 }
 
 #first {
