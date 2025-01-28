@@ -124,7 +124,7 @@ div:nth-child(even) {
   background-color: blueviolet;
 } */
 
-input:optional {
+/* input:optional {
   border: 1px solid wheat;
 }
 
@@ -138,4 +138,22 @@ input[type="password"] {
 
 input[placeholder~="name"] {
   background-color: red;
+} */
+
+/* button:active {
+  background-color: tomato;
+  border-radius: 10px;
+} */
+
+/* button:focus {
+  background-color: tomato;
+  border-radius: 10px;
+} */
+
+/* button:hover {
+  background-color: blue;
+} */
+
+a:visited {
+  color: red;
 }
