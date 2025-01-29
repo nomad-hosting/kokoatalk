@@ -203,7 +203,7 @@ a:hover {
 img:hover {
   transform: rotateZ(90deg) scale(2);
 } */
-
+/* 
 @keyframes coinFlip {
   0% {
     transform: rotateY(0);
@@ -219,4 +219,4 @@ img:hover {
 img {
   border: 5px solid tomato;
   animation: coinFlip 5s ease-in-out infinite;
-}
+} */
