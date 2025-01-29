@@ -186,7 +186,8 @@ a {
   padding: 3px 5px;
   border-radius: 5px;
   font-size: 55px;
-  transition: background-color 1s ease-in-out, color 1s ease-in-out;
+  /* transition: background-color 1s ease-in-out, color 1s ease-in-out; */
+  transition: all 1s ease-in-out;
 }
 
 a:hover {
