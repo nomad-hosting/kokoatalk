@@ -179,18 +179,27 @@ p::first-letter {
   background-color: red;
 } */
 
-a {
+/* a {
   color: wheat;
   background-color: tomato;
   text-decoration: none;
   padding: 3px 5px;
   border-radius: 5px;
   font-size: 55px;
-  /* transition: background-color 1s ease-in-out, color 1s ease-in-out; */
+  transition: background-color 1s ease-in-out, color 1s ease-in-out;
   transition: all 1s ease-in-out;
 }
 
 a:hover {
   color: tomato;
   background-color: wheat;
+} */
+
+img {
+  border: 5px solid tomato;
+  transition: transform 1s ease-in-out;
+}
+
+img:hover {
+  transform: rotateZ(90deg);
 }
