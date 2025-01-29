@@ -221,14 +221,14 @@ img {
   animation: coinFlip 5s ease-in-out infinite;
 } */
 
-body {
+/* body {
   display: flex;
   height: 100vh;
   align-items: center;
   justify-content: center;
-}
+} */
 
-div {
+/* div {
   background-color: teal;
   width: 200px;
   height: 200px;
@@ -245,3 +245,9 @@ div {
     background-color: blue;
   }
 }
+
+@media print {
+  body {
+    background-color: aqua;
+  }
+} */
