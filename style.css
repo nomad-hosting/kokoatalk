@@ -164,6 +164,7 @@ input[placeholder~="name"] {
 
 :root {
   --main-color: #fccefc;
+  --default-border: 1px solid var(--main-color);
 }
 
 p {
