@@ -195,11 +195,25 @@ a:hover {
   background-color: wheat;
 } */
 
-img {
+/* img {
   border: 5px solid tomato;
   transition: transform 1s ease-in-out;
 }
 
 img:hover {
   transform: rotateZ(90deg) scale(2);
+} */
+
+@keyframes coinFlip {
+  from {
+    transform: rotateY(0);
+  }
+  to {
+    transform: rotateY(180deg) translateX(100px);
+  }
+}
+
+img {
+  border: 5px solid tomato;
+  animation: coinFlip 5s ease-in-out infinite;
 }
