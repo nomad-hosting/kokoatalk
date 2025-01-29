@@ -220,3 +220,28 @@ img {
   border: 5px solid tomato;
   animation: coinFlip 5s ease-in-out infinite;
 } */
+
+body {
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+
+div {
+  background-color: teal;
+  width: 200px;
+  height: 200px;
+}
+
+@media screen and (min-width: 501px) and (max-width: 600px) {
+  div {
+    background-color: tomato;
+  }
+}
+
+@media screen and (min-width: 601px) and (max-width: 800px) {
+  div {
+    background-color: blue;
+  }
+}
