@@ -162,7 +162,7 @@ input[placeholder~="name"] {
   color: blue;
 } */
 
-:root {
+/* :root {
   --main-color: #fccefc;
   --default-border: 1px solid var(--main-color);
 }
@@ -177,4 +177,19 @@ p::selection {
 
 p::first-letter {
   background-color: red;
+} */
+
+a {
+  color: wheat;
+  background-color: tomato;
+  text-decoration: none;
+  padding: 3px 5px;
+  border-radius: 5px;
+  font-size: 55px;
+  transition: background-color 1s ease-in-out, color 1s ease-in-out;
+}
+
+a:hover {
+  color: tomato;
+  background-color: wheat;
 }
