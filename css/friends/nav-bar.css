@@ -4,7 +4,7 @@
   width: 100%;
   background-color: #f9f9fa;
   padding: 20px 50px;
-  box-sizing: border-box; /* magic line ! */
+  box-sizing: border-box; /* magic line ! ref. https://nomadcoders.co/kokoa-clone/lectures/1781 */
   border-top: 1px solid rgba(0, 0, 0, 0.2);
 }
 
