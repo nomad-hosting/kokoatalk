@@ -1,9 +1,7 @@
-.friends-screen {
-  padding: 5px var(--horizontal-space);
-}
-
 .user-component {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .user-component__column:first-child {
@@ -23,13 +21,26 @@
   height: 80px;
 }
 
+.user-component__avatar--sm {
+  width: 60px;
+  height: 60px;
+}
+
 .user-component__title {
   font-weight: 600;
   font-size: 22px;
+}
+
+.user-component__title--not-bold {
+  font-weight: 400;
 }
 
 .user-component__subtitle {
   margin-top: 10px;
   font-size: 17px;
   color: rgb(0, 0, 0, 0.4);
+}
+
+.user-component__column:last-child {
+  color: rgba(0, 0, 0, 0.4);
 }
