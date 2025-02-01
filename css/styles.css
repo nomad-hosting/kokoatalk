@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
-@import "reset.css";
-@import "status-bar.css";
-@import "variables.css";
+@import "shared/reset.css";
+@import "shared/status-bar.css";
+@import "shared/variables.css";
 @import "login/login.css";
 @import "friends/nav-bar.css";
 @import "friends/screen-header.css";
