@@ -6,6 +6,7 @@
 @import "shared/screen-header.css";
 @import "login/login.css";
 @import "friends/friends.css";
+@import "shared/user-component.css";
 
 body {
   font-family: "Open Sans", serif;
