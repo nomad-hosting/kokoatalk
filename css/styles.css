@@ -5,7 +5,9 @@
 @import "shared/nav-bar.css";
 @import "shared/screen-header.css";
 @import "login/login.css";
+@import "friends/friends.css";
 
 body {
   font-family: "Open Sans", serif;
+  color: #2e363e;
 }
