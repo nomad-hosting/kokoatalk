@@ -4,6 +4,7 @@
 @import "variables.css";
 @import "login/login.css";
 @import "friends/nav-bar.css";
+@import "friends/screen-header.css";
 
 body {
   font-family: "Open Sans", serif;
