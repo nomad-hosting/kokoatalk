@@ -1,6 +1,9 @@
+.friends-screen {
+  padding: 5px var(--horizontal-space);
+}
+
 .user-component {
   display: flex;
-  padding: 0px 10px;
 }
 
 .user-component__column:first-child {
@@ -13,6 +16,11 @@
   height: 70px;
   border-radius: 30%;
   margin-right: 20px;
+}
+
+.user-component__avatar--xl {
+  width: 80px;
+  height: 80px;
 }
 
 .user-component__title {
