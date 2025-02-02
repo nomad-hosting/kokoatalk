@@ -13,3 +13,7 @@ body {
   font-family: "Open Sans", serif;
   color: #2e363e;
 }
+
+.main-screen {
+  padding: 5px var(--horizontal-space);
+}
