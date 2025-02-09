@@ -8,6 +8,7 @@
 @import "friends/friends.css";
 @import "shared/user-component.css";
 @import "shared/badge.css";
+@import "shared/icon-row.css";
 @import "find/find.css";
 
 body {
