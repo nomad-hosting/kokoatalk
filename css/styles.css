@@ -11,6 +11,8 @@
 @import "shared/icon-row.css";
 @import "find/find.css";
 @import "more/more.css";
+@import "shared/alt-screen-header.css";
+@import "settings/settings.css";
 
 body {
   font-family: "Open Sans", serif;
