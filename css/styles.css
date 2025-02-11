@@ -14,6 +14,7 @@
 @import "shared/alt-screen-header.css";
 @import "settings/settings.css";
 @import "chat/chat.css";
+@import "shared/no-mobile.css";
 
 body {
   font-family: "Open Sans", serif;
