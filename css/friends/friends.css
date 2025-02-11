@@ -24,6 +24,19 @@
   color: rgba(0, 0, 0, 0.4);
 }
 
+@keyframes hideSplashScreen {
+  from {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 0;
+
+    /* if want to take out the html, use javascript */
+    visibility: hidden;
+  }
+}
+
 #splash-screen {
   background-color: var(--yellow);
   position: absolute;
@@ -35,4 +48,8 @@
   justify-content: center;
   align-items: center;
   font-size: 100px;
+
+  /* forwards is important */
+  animation: hideSplashScreen 0.1s ease-in-out forwards;
+  animation-delay: 1s;
 }
